@@ -14,5 +14,16 @@ git init
 git remote add origin git@github.com:your-name/your-project.git
 ```
 
+## Deploy
+
+### Heroku
+```
+git checkout heroku
+heroku create your-project --buildpack https://github.com/andycroll/heroku-buildpack-jekyll.git
+git push heroku heroku
+```
+
+### [Surge](http://surge.sh/help/deploying-a-jekyll-project)
+
 ## License
-[MIT](LICENSE.md) © Filipe LInhares
+[MIT](LICENSE.md) © Filipe Linhares
