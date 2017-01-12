@@ -30,3 +30,6 @@ github:
 
 # Gems
 gems:               [jekyll-paginate]
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+
